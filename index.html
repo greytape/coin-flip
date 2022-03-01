@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="coin-flip.css">
+  <title>Coin Flip</title>
+</head>
+<body>
+  <h2>Heads or Tails?</h2>
+  <div>
+    <label for="heads-box">Heads</label>
+    <input name="coin-side" type="radio" id="heads-box" checked>
+    <label for="tails-box">Tails</label>
+    <input name="coin-side" type="radio" id="tails-box">
+  </div>
+  <button id="coin-flipper">Flip the coin</button>
+  <h4 id="chosen-side"></h4>
+  <h4>You have made <span id="correct-guesses"></span> accurate guesses out of <span id="total-guesses"></span> total guesses.</h4>
+
+</body>
+<script src="coin-flip.js"></script>
+</html>
